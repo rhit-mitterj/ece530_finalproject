@@ -4,14 +4,14 @@
 /*                                                                 */
 /* Version:                                 */
 /*                                                                 */
-/* Copyright (c) 2010 Xilinx, Inc.  All rights reserved.           */
+/* Copyright (c) 2010-2016 Xilinx, Inc.  All rights reserved.      */
 /*                                                                 */
 /* Description : Cortex-A9 Linker Script                          */
 /*                                                                 */
 /*******************************************************************/
 
-_STACK_SIZE = DEFINED(_STACK_SIZE) ? _STACK_SIZE : 0x2000;
-_HEAP_SIZE = DEFINED(_HEAP_SIZE) ? _HEAP_SIZE : 0x2000;
+_STACK_SIZE = DEFINED(_STACK_SIZE) ? _STACK_SIZE : 0xC00;
+_HEAP_SIZE = DEFINED(_HEAP_SIZE) ? _HEAP_SIZE : 0xC00;
 
 _ABORT_STACK_SIZE = DEFINED(_ABORT_STACK_SIZE) ? _ABORT_STACK_SIZE : 1024;
 _SUPERVISOR_STACK_SIZE = DEFINED(_SUPERVISOR_STACK_SIZE) ? _SUPERVISOR_STACK_SIZE : 2048;
