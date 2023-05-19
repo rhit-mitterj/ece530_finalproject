@@ -267,10 +267,11 @@ void DemoPrintMenu()
 	xil_printf("\n\r");
 	xil_printf("1 - Change Display Resolution\n\r");
 	xil_printf("2 - Change Display Framebuffer Index\n\r");
-	xil_printf("3 - Print Blended Test Pattern to Display Framebuffer\n\r");
-	xil_printf("4 - Print Color Bar Test Pattern to Display Framebuffer\n\r");
+	xil_printf("3 - Display first frame of Video\n\r");
+	xil_printf("4 - Display Sample Image\n\r");
 	xil_printf("5 - Invert Current Frame colors\n\r");
 	xil_printf("6 - Invert Current Frame colors seamlessly\n\r");
+	xil_printf("7 - Play Sample Video\n\r");
 	xil_printf("q - Quit\n\r");
 	xil_printf("\n\r");
 	xil_printf("\n\r");
